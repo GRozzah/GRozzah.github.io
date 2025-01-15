@@ -1,0 +1,72 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif; /* Sets the font of the page */
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text color for readability */
+    line-height: 1.6; /* Makes the text more readable by adding space between lines */
+}
+
+/* Header Styles */
+header {
+    background-color: #af4c86; /* Pink background for the header */
+    color: white; /* White text */
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add space inside the header */
+}
+
+header h1 {
+    font-size: 2.5em; /* Increase the font size of the name */
+    margin-bottom: 10px; /* Adds some space below the title */
+}
+
+header p {
+    font-size: 1.2em; /* Slightly larger font for the welcome message */
+}
+
+/* Projects Section Styles */
+#projects {
+    padding: 20px;
+    background-color: white; /* White background for the projects section */
+    margin: 20px; /* Adds space around the section */
+    border-radius: 8px; /* Round the corners of the section */
+}
+
+#projects h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#projects ul {
+    list-style-type: none; /* Removes bullet points from the list */
+    padding: 0;
+}
+
+#projects ul li {
+    margin: 10px 0; /* Adds space between list items */
+}
+
+#projects ul li a {
+    color: #af4c65; /* Pink links */
+    text-decoration: none; /* Removes underline from links */
+    font-size: 1.2em;
+    transition: color 0.3s; /* Adds a smooth color transition on hover */
+}
+
+#projects ul li a:hover {
+    color: #333; /* Dark color when hovering over links */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333; /* Dark background for the footer */
+    color: white; /* White text */
+}
